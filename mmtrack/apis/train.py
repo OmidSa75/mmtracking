@@ -3,7 +3,7 @@ from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 from mmcv.runner import (HOOKS, DistSamplerSeedHook, EpochBasedRunner,
                          OptimizerHook, build_optimizer)
 from mmcv.utils import build_from_cfg
-from mmdet.core import Fp16OptimizerHook
+from mmcv.runner import Fp16OptimizerHook
 from mmdet.datasets import build_dataset
 
 from mmtrack.core import DistEvalHook, EvalHook
